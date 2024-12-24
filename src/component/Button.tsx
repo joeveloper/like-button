@@ -18,13 +18,11 @@ const Button = () => {
           }
 }
 
-
     return (
         <div>
             <button onClick={()=> handleClick()}>{text}</button>
             <span id='text'>{count}</span>
         </div>
-
     );
 }
 
